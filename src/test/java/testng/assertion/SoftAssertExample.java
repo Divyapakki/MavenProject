@@ -25,7 +25,7 @@ public class SoftAssertExample {
         softAssert.assertTrue(userNameTextBox.isDisplayed(),"user name text box should be displayed");
         softAssert.assertAll();
         System.out.println("hello world");
-        driver.close();
+        
 
     }
 }
